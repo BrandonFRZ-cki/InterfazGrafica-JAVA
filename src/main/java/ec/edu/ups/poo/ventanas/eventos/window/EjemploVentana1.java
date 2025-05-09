@@ -17,9 +17,6 @@ public class EjemploVentana1 {
         otraVentana.setLocation(200, 0);
         otraVentana.addWindowListener(new InterrupcionesDeVentana());
 
-
-
-
         Button boton1 = new Button("Abrir ventana");
         miVentana.add(boton1);
         boton1.addActionListener(new ActionListener() {
